@@ -99,6 +99,7 @@ Status GetNext(SString T, int next[]) {//求next数组
 	}
 	return OK;
 }
+
 int main() {
 	SString T,S;
 	ScanfStr(T);
