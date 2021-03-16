@@ -7,7 +7,7 @@ using namespace std;
 
 #define MAXSIZE 50
 
-typedef int ElemType;
+typedef char ElemType;
 typedef struct{
     ElemType data[MAXSIZE];
     int top;
@@ -39,19 +39,19 @@ bool GetHead(SqStack S,ElemType e){
     return true;
 }
 
-int main(){
-    SqStack S;
-    InitStack(S);
-    int x;
-    cout <<"请输入入栈元素，-9999 结束"<<endl;cin>>x;
-    while(x!=-9999){
-        Push(S,x);
-        cin>>x;
-    }
-    cout <<"栈内元素依次出栈："<<endl;
-    while(!StackEmpty(S)){
-        Pop(S,x);
-        cout<<x<<" ";
-    }
-    return 1;
-}
+// int main(){
+//     SqStack S;
+//     InitStack(S);
+//     int x;
+//     cout <<"请输入入栈元素，-9999 结束"<<endl;cin>>x;
+//     while(x!=-9999){
+//         Push(S,x);
+//         cin>>x;
+//     }
+//     cout <<"栈内元素依次出栈："<<endl;
+//     while(!StackEmpty(S)){
+//         Pop(S,x);
+//         cout<<x<<" ";
+//     }
+//     return 1;
+// }
